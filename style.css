@@ -36,7 +36,7 @@
     transform: translateY(-2px);
 }
 @media screen and (max-width:768px) {
-    .header-container ,.main-navdetails , .navdetails ,.rank ,.marketcap , .Vwap , .supply , .volume ,.thead-details{
+    .header-container ,.main-navdetails , .navdetails ,.rank ,.marketcap , .Vwap , .supply , .volume ,.thead-details ,.perhour-head{
         display: none;
     }
     #table{
@@ -120,7 +120,7 @@
     overflow: hidden;
 }
 #header-price-container{
-    width: 40%;
+    width: 35%;
     justify-content: space-around;
 }
 #advertise{
