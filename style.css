@@ -116,18 +116,30 @@
     width: 37%;
     height: 240px;
 }
+#table-container{
+    justify-content: space-between;
+}
 #price-container{
-    width: 40%;
+    width: 50%;
     justify-content: space-around;
     text-align: right;
-    overflow: hidden;
 }
 #header-price-container{
-    width: 35%;
+    width: 43%;
     justify-content: space-around;
 }
+#price{
+    width: 45%;
+    text-align: left;
+}
+#rank-container{ 
+    width: 50%;
+}
+#table-logo-container{
+   width: 80%;
+}
 #name-headpart{
-    padding-left: 10px;
+    width: 65%;
 }
 #advertise{
     width: 100%;
@@ -266,6 +278,11 @@
     box-shadow: 4px 4px 16px 1px rgba(0, 0, 0, 0.1); 
     cursor: pointer;
 }
+.table-container{
+    display: flex;
+    align-items: center;
+   
+}
 .table-container:hover{
     background-color: #ececf8cc;
 }
@@ -278,31 +295,31 @@
     padding-left: 50px;
     font-size: 0.9em;
 }
+.table-logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
 .name-container{
     display: flex;
     flex-direction: column;
     width: 70%;
 }
-.rank , .marketcap{
+.rank {
     width: 20%;  
 }
 .price-container{
-    width: 75%;
+    width: 70%;
     height: 60px;
     text-align: end;
     border-bottom:1px solid #d4d4d5;
     padding-right: 10px;
     font-size: 0.9em;
-    overflow: hidden;
+    
 }
-.price , .Vwap , .perhour{
+.table-same-width{
     width: 10%;
-}
-.supply{
-    width: 20%;
-}
-.volume{
-    width: 15%;
 }
 .header-rank-container{
     display: flex;
@@ -316,18 +333,17 @@
     color: rgb(92, 104, 109);
     cursor: pointer;
 }
-.rank-head{
-    width: 22%;
-}
-.name-head{
-    width: 21%;
+.rank-head , .name-head{
+    width: 23%;
 }
 .header-price-container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-right: 12px;
     width: 70%;
     text-align: right;
-    font-size: 0.9em;
+    font-size: 0.8em;
     border-bottom:1px solid #d4d4d5;
     color:  rgb(92, 104, 109);
     cursor: pointer;
@@ -340,17 +356,8 @@
     height: 45px;
     background-color: #ffffff;
 }
-.price-head{
-width: 8%;
-}
-.marketcap-head , .Vwap-head{
-   width: 23%;
-}
-.supply-head , .perhour-head{
-width: 13%;
-}
-.volume-head{
-    width: 18.5%;
+.thead-same-width{
+width: 10%;
 }
 .thead-hover:hover{
     color: black;
